@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            width: 22%;
+            height: 70%;
+            border-radius: 18px;
+            margin: 10px;
+            box-shadow: 5px 5px 15px grey;
+            padding: 20px;
+            /* box-shadow: 1px 1px 15px 0px rgba(0,0,0,1); */
+            display: flex;
+            flex-direction: column;
+            background-color: azure;
+            align-items: center;
+            justify-content: center;
+            gap:10px;
+        }
+
+        .scanner img{
+            width: 270px;
+            height: 280px;
+            border-radius: 12px;
+        }
+
+        #text1{
+            font-size: 1.3rem;
+            font-weight: bold;
+            /* text-align: center; */
+        }
+
+        p{
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="scanner">
+                <img
+                    src="qrcode.png";
+                />
+            </div>
+            
+            <h2 id="text1"><b>Improve your front end skills by developing Projects</b></h2>
+            
+            <p>Scan the QR Code to visit Front End mentor and take your coding skill to next level</p>
+            
+        </div>
+    </div>
+</body>
+</html>

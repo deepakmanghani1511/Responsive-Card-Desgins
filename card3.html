@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 3</title>
+
+    <style>
+            /* body {
+                background-image: url("45551.png");
+            } */
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                background-image: url("45551.png");
+                justify-content: center;
+                align-items: center;
+                /* gap:0; */
+            }
+            .leftBox{
+                width: 435px;
+                height: 400px;
+                background-color: rgba(70, 3, 65, 0.932);
+                color: white;
+                padding: 0px 50px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .leftBox .bottom{
+                display: flex;
+                /* align-items: center; */
+                /* justify-content: space-between; */
+                gap: 80px;
+            }
+
+            .leftBox .bottom #bold{
+                font-size: 1.6rem;
+            }
+            .leftBox .bottom #small{
+                font-size: 0.75rem;
+            }
+
+            .rightBox{
+                width: 435px;
+                height: 400px;
+                /* background-image: url(icon.jpg); */
+            }
+            .rightBox img{
+                width: 100%;
+                height: 100%;
+                /* background-image: url(icon.jpg); */
+            }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="leftBox">
+
+            <div class="top">
+                <h1>Get insights that help your business grow</h1>
+            </div>
+            
+            <div class="middle">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi id totam, fugit dolorum nihil assumenda. Doloribus mollitia optio asperiores consectetur sint perferendis obcaecati, at corrupti!</p>
+            </div>
+            
+            <div class="bottom">
+                <div class="1">
+                    <p id="bold">10K+</p>
+                    <p id="small">Comments</p>
+                </div>
+                <div class="2">
+                    <p id="bold">214</p>
+                    <p id="small">Paid Users</p>
+                </div>
+                <div class="3">
+                    <p id="bold">12M+</p>
+                    <p id="small">Views</p>
+                </div>
+            </div>
+        </div>
+        <div class="rightBox">
+            <img
+                src="icon.jpg";
+            />    
+        </div>
+    </div>
+</body>
+</html>
